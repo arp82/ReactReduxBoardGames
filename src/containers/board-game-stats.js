@@ -22,6 +22,7 @@ class BoardGameStats extends Component {
                 </thead>
                 <tbody>
                     {/* {this.props.activeBoardGame.stats.map(this.renderStatsData)} */}
+                    <tr><td col-span="2">Work In Progress</td></tr>
                 </tbody>
             </table>
         );

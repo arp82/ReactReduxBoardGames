@@ -1,25 +1,18 @@
-# ReduxSimpleStarter
+# ReactReduxBoardGames
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Base repo which I am using as a template to start fiddling around with Redux and React. This is a very simple application that displays a list of board games from the server along with some data and stats for each game. The backend side is being provided by a very simple JSON server.
 
-### Getting Started
-
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
+# Execution
+- Install the NPM dependencies
 ```
 > npm install
+```
+- Run JSON server (or similar backend) on localhost and port 3007 (install if necessary)
+```
+> npm install json-server --save-dev
+> json-server --watch db.json --port 3007
+```
+- Start application (running on localhost, port 8080)
+```
 > npm start
 ```

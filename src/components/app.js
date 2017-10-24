@@ -17,7 +17,7 @@ export default class App extends Component {
                 </div>
                 <div className="row vertical-offset">
                     <div className="row">
-                        <div className="col-sm-12">
+                        <div className="container">
                             <h4>Playing statistics</h4>
                             <BoardGameStats />
                         </div>

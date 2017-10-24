@@ -1,12 +1,20 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+import {Sparklines, SparklinesLine} from 'react-sparklines';
+import _ from 'lodash';
 
 class BoardGameStats extends Component {
-    renderBoardGame(boardGameStatsData) {
+    renderStatsData(boardGameStatsData) {
+        const metric = _.keys(boardGameStatsData)[0];
+        const values = boardGameStatsData[metric];
         return (
-            <tr key={boardGameStatsData.metric}>
-                <td>{boardGameStatsData.metric}</td>
-                <td>{boardGameStatsData.values}</td>
+            <tr key={metric}>
+                <td>{metric}</td>
+                <td>
+                    <Sparklines height={140} width={200} data={values}>
+                        <SparklinesLine color="blue"/>
+                    </Sparklines>
+                </td>
             </tr>
         );
     }
@@ -21,8 +29,7 @@ class BoardGameStats extends Component {
                     </tr>
                 </thead>
                 <tbody>
-                    {/* {this.props.activeBoardGame.stats.map(this.renderStatsData)} */}
-                    <tr><td col-span="2">Work In Progress</td></tr>
+                    {this.props.activeBoardGame && this.props.activeBoardGame.stats.map(this.renderStatsData)}
                 </tbody>
             </table>
         );

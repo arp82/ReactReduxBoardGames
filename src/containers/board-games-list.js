@@ -4,8 +4,13 @@ import {bindActionCreators} from 'redux';
 import * as ActionCreators from '../actions/index';
 
 class BoardGamesList extends Component {
+
+    componentDidMount() {
+        this.props.selectBoardGame(null);
+    }
+
     renderList() {
-        return this.props.boardGames.map((boardGame) => {
+        return _.map(this.props.boardGames, (boardGame) => {
             return (
                 <li key={boardGame.title}
                     className="list-group-item"
@@ -18,7 +23,7 @@ class BoardGamesList extends Component {
 
     render() {
         return (
-            <ul className="list-group col-sm-4">
+            <ul className="list-group">
                 {this.renderList()}
             </ul>
         );

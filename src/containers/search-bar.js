@@ -23,6 +23,10 @@ class SearchBar extends Component {
         this.setState({searchTerm: ''});
     }
 
+    componentDidMount() {
+        this.props.fetchBoardGames('');
+    }
+
     render() {
         return (
             <div className="row">

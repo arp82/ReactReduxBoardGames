@@ -5,7 +5,6 @@ export default function (state = null, action) {
             updatedState = action.payload;
             break;
         default:
-            // do nothing
     }
     return updatedState;
 }

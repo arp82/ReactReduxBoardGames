@@ -1,158 +1,707 @@
 {
-  "boardgames" : [
+  "boardgames": [
     {
+      "id": 0,
       "title": "Caverna: the Cave Farmers",
       "players": "1-7",
       "imageUrl": "https://cf.geekdo-images.com/images/pic1790789_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 0, 5, 10, 25, 85, 55, 30] },
-        { "winLossTieRate": [33, 67, 0]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            10,
+            25,
+            85,
+            55,
+            30
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            33,
+            67,
+            0
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Jin",
+        "location": {
+          "name": "Montreal",
+          "lon": "-73.56725599999999",
+          "lat": "45.5016889"
+        }
+      }
     },
     {
+      "id": 1,
       "title": "Agricola",
       "players": "1-5",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic259085_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic259085_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 2, 5, 14, 40, 85, 65, 45] },
-        { "winLossTieRate": [40, 40, 20]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            2,
+            5,
+            14,
+            40,
+            85,
+            65,
+            45
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            40,
+            40,
+            20
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Jin",
+        "location": {
+          "name": "Montreal",
+          "lon": "-73.56725599999999",
+          "lat": "45.5016889"
+        }
+      }
     },
     {
+      "id": 2,
       "title": "Descent",
       "players": "2-5",
       "imageUrl": "https://cf.geekdo-images.com/images/pic1180640_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 0, 5, 15, 37, 92, 40, 20] },
-        { "winLossTieRate": [75, 25, 0]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            15,
+            37,
+            92,
+            40,
+            20
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            75,
+            25,
+            0
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Jin",
+        "location": {
+          "name": "Montreal",
+          "lon": "-73.56725599999999",
+          "lat": "45.5016889"
+        }
+      }
     },
     {
+      "id": 3,
       "title": "Mechs vs Minions",
       "players": "1-4",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic3184103_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic3184103_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 0, 0, 10, 20, 90, 67, 35] },
-        { "winLossTieRate": [100, 0, 0]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            20,
+            90,
+            67,
+            35
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            100,
+            0,
+            0
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Jin",
+        "location": {
+          "name": "Montreal",
+          "lon": "-73.56725599999999",
+          "lat": "45.5016889"
+        }
+      }
     },
     {
+      "id": 4,
       "title": "Robo Rally",
       "players": "2-8",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic1000553_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic1000553_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 5, 10, 45, 77, 85, 23, 12] },
-        { "winLossTieRate": [50, 50, 0]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            5,
+            10,
+            45,
+            77,
+            85,
+            23,
+            12
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            50,
+            50,
+            0
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Pepe",
+        "location": {
+          "name": "Madrid",
+          "lon": "-3.7037902",
+          "lat": "40.4167754"
+        }
+      }
     },
     {
+      "id": 5,
       "title": "Gloomhaven",
       "players": "1-4",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic2437871_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic2437871_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 0, 0, 3, 5, 12, 27, 85] },
-        { "winLossTieRate": [0, 0, 0]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            5,
+            12,
+            27,
+            85
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Pepe",
+        "location": {
+          "name": "Madrid",
+          "lon": "-3.7037902",
+          "lat": "40.4167754"
+        }
+      }
     },
     {
+      "id": 6,
       "title": "Scythe",
       "players": "1-5",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic3163924_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic3163924_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 0, 3, 10, 27, 85, 80, 55] },
-        { "winLossTieRate": [0, 100, 0]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            10,
+            27,
+            85,
+            80,
+            55
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            0,
+            100,
+            0
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Pepe",
+        "location": {
+          "name": "Madrid",
+          "lon": "-3.7037902",
+          "lat": "40.4167754"
+        }
+      }
     },
     {
+      "id": 7,
       "title": "Dominion",
       "players": "2-4",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic394356_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic394356_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 3, 5, 23, 50, 80, 37, 20] },
-        { "winLossTieRate": [60, 30, 10]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            3,
+            5,
+            23,
+            50,
+            80,
+            37,
+            20
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            60,
+            30,
+            10
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Pepe",
+        "location": {
+          "name": "Madrid",
+          "lon": "-3.7037902",
+          "lat": "40.4167754"
+        }
+      }
     },
     {
+      "id": 8,
       "title": "Dominion: Intrigue",
       "players": "2-4",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic460011_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic460011_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 0, 3, 15, 40, 90, 37, 15] },
-        { "winLossTieRate": [55, 40, 5]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            15,
+            40,
+            90,
+            37,
+            15
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            55,
+            40,
+            5
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Lana",
+        "location": {
+          "name": "London",
+          "lon": "-0.1277583",
+          "lat": "51.5073509"
+        }
+      }
     },
     {
+      "id": 9,
       "title": "Relikt",
       "players": "3-5",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic147376_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic147376_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 5, 12, 33, 83, 40, 13, 3, 0] },
-        { "winLossTieRate": [65, 35, 0]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            5,
+            12,
+            33,
+            83,
+            40,
+            13,
+            3,
+            0
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            65,
+            35,
+            0
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Lana",
+        "location": {
+          "name": "London",
+          "lon": "-0.1277583",
+          "lat": "51.5073509"
+        }
+      }
     },
     {
+      "id": 10,
       "title": "The Resistance",
       "players": "5-10",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic2576459_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic2576459_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 5, 7, 33, 60, 80, 27, 12] },
-        { "winLossTieRate": [65, 35, 0]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            5,
+            7,
+            33,
+            60,
+            80,
+            27,
+            12
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            65,
+            35,
+            0
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Lana",
+        "location": {
+          "name": "London",
+          "lon": "-0.1277583",
+          "lat": "51.5073509"
+        }
+      }
     },
     {
+      "id": 11,
       "title": "Marvel Heroes",
       "players": "2-4",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic150626_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic150626_md.jpg",
       "stats": [
-        { "ratings": [0, 3, 8, 14, 30, 80, 80, 65, 10, 5] },
-        { "winLossTieRate": [75, 25, 0]}
-      ]
+        {
+          "ratings": [
+            0,
+            3,
+            8,
+            14,
+            30,
+            80,
+            80,
+            65,
+            10,
+            5
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            75,
+            25,
+            0
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Lana",
+        "location": {
+          "name": "London",
+          "lon": "-0.1277583",
+          "lat": "51.5073509"
+        }
+      }
     },
     {
+      "id": 16,
       "title": "Lords of Waterdeep",
       "players": "2-5",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic1116080_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic1116080_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 0, 5, 14, 37, 85, 33, 15] },
-        { "winLossTieRate": [80, 20, 0]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            14,
+            37,
+            85,
+            33,
+            15
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            80,
+            20,
+            0
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Lana",
+        "location": {
+          "name": "London",
+          "lon": "-0.1277583",
+          "lat": "51.5073509"
+        }
+      }
     },
     {
+      "id": 12,
       "title": "The Castles of Burgundy",
       "players": "2-4",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic1176894.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic1176894.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 0, 0, 10, 25, 85, 42, 20] },
-        { "winLossTieRate": [80, 20, 0]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            25,
+            85,
+            42,
+            20
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            80,
+            20,
+            0
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Dan",
+        "location": {
+          "name": "Paris",
+          "lon": "2.3522219",
+          "lat": "48.856614"
+        }
+      }
     },
     {
+      "id": 13,
       "title": "War of the Ring",
       "players": "2-4",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic1215633_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic1215633_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 0, 5, 13, 27, 80, 75, 85] },
-        { "winLossTieRate": [100, 0, 0]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            13,
+            27,
+            80,
+            75,
+            85
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            100,
+            0,
+            0
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Dan",
+        "location": {
+          "name": "Paris",
+          "lon": "2.3522219",
+          "lat": "48.856614"
+        }
+      }
     },
     {
+      "id": 14,
       "title": "Codenames",
       "players": "2-8",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic2582929_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic2582929_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 0, 3, 13, 37, 82, 35, 18] },
-        { "winLossTieRate": [75, 25, 0]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            13,
+            37,
+            82,
+            35,
+            18
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            75,
+            25,
+            0
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Dan",
+        "location": {
+          "name": "Paris",
+          "lon": "2.3522219",
+          "lat": "48.856614"
+        }
+      }
     },
     {
+      "id": 15,
       "title": "7 Wonders",
       "players": "2-7",
-      "imageUrl":"https://cf.geekdo-images.com/images/pic860217_md.jpg",
+      "imageUrl": "https://cf.geekdo-images.com/images/pic860217_md.jpg",
       "stats": [
-        { "ratings": [0, 0, 0, 0, 3, 15, 40, 90, 35, 14] },
-        { "winLossTieRate": [70, 20, 10]}
-      ]
+        {
+          "ratings": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            15,
+            40,
+            90,
+            35,
+            14
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            70,
+            20,
+            10
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Dan",
+        "location": {
+          "name": "Paris",
+          "lon": "2.3522219",
+          "lat": "48.856614"
+        }
+      }
+    },
+    {
+      "title": "aaaaa",
+      "players": "qqq",
+      "imageUrl": "wqwe",
+      "stats": [
+        {
+          "ratings": [
+            1,
+            67,
+            8,
+            9,
+            0,
+            6,
+            9,
+            6,
+            96,
+            5
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            33,
+            33,
+            34
+          ]
+        }
+      ],
+      "owner": {
+        "name": "Jinaaa",
+        "location": {
+          "name": "qwe",
+          "lat": "11",
+          "lon": "11"
+        }
+      },
+      "id": 17
+    },
+    {
+      "title": "firulais",
+      "players": "2",
+      "imageUrl": "https://cdn.memegenerator.es/imagenes/memes/full/10/69/10698448.jpg",
+      "stats": [
+        {
+          "ratings": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            5,
+            67,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "winLossTieRatio": [
+            33,
+            33,
+            34
+          ]
+        }
+      ],
+      "owner": {
+        "name": "firulao",
+        "location": {
+          "name": "firulilandia",
+          "lat": "-12",
+          "lon": "-09"
+        }
+      },
+      "id": 18
     }
   ]
 }
-

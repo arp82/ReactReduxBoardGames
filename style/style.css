@@ -7,3 +7,31 @@ td, th {
     vertical-align: middle;
     text-align: center;
 }
+
+.google-map {
+    height: 300px;
+    width: 350px;
+}
+
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+table .absorbing-column {
+    width: 100%;
+}
+
+.button-margin {
+    margin-left: 1em;
+}

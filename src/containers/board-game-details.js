@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
+import {Link} from 'react-router-dom';
 
 class BoardGameDetails extends Component {
     render() {
         if (!this.props.boardGame) {
             return (
-                <div>
+                <div className="container">
                     <h3>Board Game Details: </h3>
                     <div>
                         Please, select a board game first.
@@ -15,16 +16,19 @@ class BoardGameDetails extends Component {
         }
 
         return (
-            <div>
+            <div className="container">
                 <h3>Board Game Details: </h3>
-                <div>
+                <div className="row">
                     Title: {this.props.boardGame.title}
                 </div>
-                <div>
+                <div className="row">
                     Players: {this.props.boardGame.players}
                 </div>
-                <div>
+                <div className="row">
                     <img src={this.props.boardGame.imageUrl} />
+                </div>
+                <div className="row vertical-offset">
+                    <Link to={`/boardGame/${this.props.boardGame.id}`} className="btn btn-primary">Go to Board Game data page</Link>
                 </div>
             </div>
         );

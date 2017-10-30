@@ -9,7 +9,7 @@ Base repo which I am using as a template to start fiddling around with Redux and
 ```
 - Run JSON server (or similar backend) on localhost and port 3007 (install if necessary)
 ```
-> npm install json-server --save-dev
+> npm install -g json-server
 > json-server --watch db.json --port 3007
 ```
 - Start application (running on localhost, port 8080)

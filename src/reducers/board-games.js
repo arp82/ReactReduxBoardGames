@@ -13,9 +13,7 @@ export default function(state = {}, action) {
             return _.omit(state, action.payload);
             break;
         case UPDATE_BOARD_GAME:
-            const keyMappedBoardGame = {};
-            keyMappedBoardGame[action.payload.id] = action.payload;
-            return _.assign(state, keyMappedBoardGame);
+            return {...state, [action.payload.id]: action.payload};
             break;
         default:
             return state;
